@@ -4,7 +4,13 @@ import ArrowDown from "@/assets/icons/arrow-down.svg";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32">
+    <div className="py-32 md:py-48 lg:py-60 relative z-0">
+      <div className="size-[720px] hero_ring"></div>
+      <div className="size-[920px] hero_ring"></div>
+      <div className="size-[1120px] hero_ring"></div>
+      <div className="size-[1320px] hero_ring"></div>
+      <div className="size-[1520px] hero_ring"></div>
+
       <div className="container">
         <div className="flex flex-col items-center justify-cente gap-2">
           <Image src={memojiImage}
@@ -14,17 +20,18 @@ export const HeroSection = () => {
             <div className="bg-green-500 size-2.5 rounded-full"></div>
             <div className="font-medium">Available for new Android and Web Development projects</div>
           </div>
-          <h1 className="text-3xl text-center justify-center mt-8 tracking-wide">PRIYANSHU YADAV</h1>
-          <p className="mt-4 text-center tex-white/80">
-            I am a Second Year Information Technology and Mathematics student at Cluster Innovation Center, University of Delhi.
-            <br/>
-            Passionate developer with a keen interest in Android and Web Development.
-            <br/> 
-            Looking for opportunities to work on exciting projects and collaborate with talented individuals.
-          </p>
+
+          <div className="max-w-lg mx-auto">
+            <h1 className="text-3xl md:text-5xl text-center justify-center mt-8 tracking-wide">PRIYANSHU YADAV</h1>
+            <p className="mt-8 text-center text-white/80 md:text-lg">
+              I am a Second Year Information Technology and Mathematics student at Cluster Innovation Center, University of Delhi.
+              <br/>
+              Passionate developer with a keen interest in Android and Web Development.
+            </p>
+          </div>
         </div>  
         
-        <div className="flex flex-col items-center justify-center mt-8 gap-4">
+        <div className="flex flex-col md:flex-row items-center justify-center mt-8 gap-4">
           <button className="inline-flex items-center gap-2 border border-white/20 px-6 h-12 rounded-xl">
             <span className="font-semibold">Explore my work and experience</span>
             <ArrowDown className="size-4"/>
