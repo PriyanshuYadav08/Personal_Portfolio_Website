@@ -1,15 +1,24 @@
 import Image from "next/image";
 import memojiImage from "@/assets/images/memoji-computer.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
+import StarIcon from "@/assets/icons/star.svg";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0">
+    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
       <div className="size-[720px] hero_ring"></div>
       <div className="size-[920px] hero_ring"></div>
       <div className="size-[1120px] hero_ring"></div>
       <div className="size-[1320px] hero_ring"></div>
       <div className="size-[1520px] hero_ring"></div>
+
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="border border-red-500 size-[800px] animate-spin [animation-duration:30s]">
+          <div className="border border-red-500 inline-flex animate-spin [animation-duration:5s]">
+            <StarIcon className="size-28 text-emerald-300" />
+          </div>
+        </div>
+      </div>
 
       <div className="container">
         <div className="flex flex-col items-center justify-cente gap-2">
