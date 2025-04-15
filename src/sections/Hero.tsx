@@ -1,5 +1,5 @@
 import Image from "next/image";
-import memojiImage from "@/assets/images/memoji-computer.png";
+import memojiImage from "@/assets/images/self_pic.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import StarIcon from "@/assets/icons/star.svg";
 
@@ -8,29 +8,25 @@ export const HeroSection = () => {
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
       <div className="absolute top-0 left-0 w-full flex justify-center items-center z-10">
         <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur mt-4">
-          <a href="/home" className="nav-item">
-            Home
-          </a>
-          <a href="/about" className="nav-item">
-            About
-          </a>
-          <a href="/projects" className="nav-item">
-            Projects
-          </a>
-          <a href="/contact" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900">
-            Contact
-          </a>
+          <a href="/home" className="nav-item"> Home </a>
+          <a href="/about" className="nav-item"> About </a>
+          <a href="/projects" className="nav-item"> Projects </a>
+          <a href="/contact" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"> Contact </a>
         </nav>
       </div>
 
+      <div className="size-[120px] hero_ring"></div>
+      <div className="size-[320px] hero_ring"></div>
+      <div className="size-[520px] hero_ring"></div>
       <div className="size-[720px] hero_ring"></div>
       <div className="size-[920px] hero_ring"></div>
       <div className="size-[1120px] hero_ring"></div>
       <div className="size-[1320px] hero_ring"></div>
       <div className="size-[1520px] hero_ring"></div>
+      <div className="size-[1720px] hero_ring"></div>
 
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="size-[700px] animate-spin [animation-duration:30s]">
+        <div className="size-[720px] animate-spin [animation-duration:30s]">
           <div className="inline-flex animate-spin [animation-duration:5s]">
             <StarIcon className="size-28 text-emerald-300" />
           </div>
@@ -41,7 +37,8 @@ export const HeroSection = () => {
         <div className="flex flex-col items-center justify-center gap-2">
           <Image
             src={memojiImage}
-            className="size-[100px]"
+            className="size-[250px] rounded-full border border-gray-400"
+            style={{ borderWidth: '4px'}}
             alt="Person behind computer"
           />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
@@ -53,14 +50,12 @@ export const HeroSection = () => {
 
           <div className="max-w-lg mx-auto">
             <h1 className="text-3xl md:text-5xl text-center justify-center mt-8 tracking-wide">
-              PRIYANSHU YADAV
+              PRIYANSHU YADAV 
             </h1>
-            <p className="mt-8 text-center text-white/80 md:text-lg">
-              I am a Second Year Information Technology and Mathematics student
-              at Cluster Innovation Center, University of Delhi.
+            <p className="mt-8 text-center justify-center text-white/80 md:text-lg">
+              <b>Sophomore in University of Delhi pursuing IT and Maths at Cluster Innovation Center</b>
               <br />
-              Passionate developer with a keen interest in Android and Web
-              Development.
+              <b>Passionate developer with a keen interest in Android and Web Development</b>
             </p>
           </div>
         </div>
