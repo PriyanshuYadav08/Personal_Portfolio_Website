@@ -1,0 +1,34 @@
+/* App-level layout control */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure pages push footer to bottom */
+.main-content {
+  flex: 1;
+}
+
+/* Global link behavior */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Images never overflow */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Text selection styling */
+::selection {
+  background: rgba(167, 139, 250, 0.35);
+}
