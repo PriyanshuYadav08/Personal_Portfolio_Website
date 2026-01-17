@@ -1,15 +1,15 @@
-import "../styles/Gallery.css"
+import img1 from "../assets/1.JPG";
+import img2 from "../assets/2.JPG";
+import "../styles/Gallery.css";
 
 export default function Photography() {
-  return (
-    <div className="container">
-      <h2 className="section-title">Photography</h2>
-
-      <div className="gallery">
-        <img src="/photos/photo1.jpg" alt="1" />
-        <img src="/photos/photo2.jpg" alt="2" />
-        <img src="/photos/photo3.jpg" alt="3" />
-      </div>
-    </div>
-  )
+	return (
+		<div className="container">
+			<h2 className="section-title">Photography</h2>
+			<div className="gallery">
+				<img src={img1} alt="Photography sample"/>
+        <img src={img2} alt="Photography sample"/>
+			</div>
+		</div>
+	);
 }

@@ -1,20 +1,15 @@
+import Section from "../components/Section"
+import ProjectCard from "../components/ProjectCard"
 import { projects } from "../data/projects"
-import "../styles/Projects.css"
 
 export default function Projects() {
   return (
-    <div className="container">
-      <h2 className="section-title">Projects</h2>
-
+    <Section title="Projects">
       <div className="projects-grid">
         {projects.map((p, i) => (
-          <div className="card project-card" key={i}>
-            <h3>{p.title}</h3>
-            <span>{p.tech}</span>
-            <p>{p.description}</p>
-          </div>
+          <ProjectCard key={i} project={p} />
         ))}
       </div>
-    </div>
+    </Section>
   )
 }

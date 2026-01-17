@@ -1,0 +1,12 @@
+.skills-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skill-chip {
+  padding: 0.5rem 1rem;
+  background: #020617;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
