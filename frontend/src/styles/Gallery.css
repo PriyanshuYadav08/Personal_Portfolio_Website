@@ -1,12 +1,27 @@
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+.gallery-grid {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0;
 }
 
-.gallery img {
+.gallery-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  width: 100vw;
+}
+
+
+.gallery-img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1/1;
   object-fit: cover;
-  border-radius: 14px;
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform 0.2s;
+  display: block;
 }

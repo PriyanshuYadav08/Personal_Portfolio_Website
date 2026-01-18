@@ -1,14 +1,28 @@
-import img1 from "../assets/1.JPG";
-import img2 from "../assets/2.JPG";
+import { photos } from "../data/photography";
 import "../styles/Gallery.css";
 
 export default function Photography() {
+	const columns = 5;
+	const rows = [];
+	for (let i = 0; i < photos.length; i += columns) {
+		rows.push(photos.slice(i, i + columns));
+	}
+
 	return (
 		<div className="container">
-			<h2 className="section-title">Photography</h2>
-			<div className="gallery">
-				<img src={img1} alt="Photography sample"/>
-        <img src={img2} alt="Photography sample"/>
+			<div className="gallery-grid">
+				{rows.map((row, rowIndex) => (
+					<div className="gallery-row" key={rowIndex}>
+						{row.map((photo, colIndex) => (
+							<img
+								key={colIndex}
+								src={photo.src}
+								alt={photo.title}
+								className="gallery-img"
+							/>
+						))}
+					</div>
+				))}
 			</div>
 		</div>
 	);

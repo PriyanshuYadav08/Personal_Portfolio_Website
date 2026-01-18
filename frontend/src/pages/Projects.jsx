@@ -4,12 +4,14 @@ import { projects } from "../data/projects"
 
 export default function Projects() {
   return (
-    <Section title="Projects">
+    <div>
+    <Section>
       <div className="projects-grid">
         {projects.map((p, i) => (
           <ProjectCard key={i} project={p} />
         ))}
       </div>
     </Section>
+    </div>
   )
 }

@@ -1,17 +1,20 @@
+.footer-inner .copyright {
+  color: #fff;
+}
 .footer {
   background-color: var(--bg-navy);
   border-top: 1px solid #102a43;
 }
 
 .footer-inner {
-  max-width: 1100px;
+  max-width: 2000px;
   margin-inline: auto;
   padding: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.85rem;
-  color: #c4b5fd;
+  color: #ffffff;
 }
 
 /* Responsive */
@@ -20,5 +23,6 @@
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+    color: #ffffff;
   }
 }
