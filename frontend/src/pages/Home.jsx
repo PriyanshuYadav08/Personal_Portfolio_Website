@@ -8,6 +8,7 @@ export default function Home() {
         <p>
           Android Developer • Machine Learning Enthusiast • Photographer
         </p>
+        <img src="src/assets/DSC_0278.JPG" alt="Profile"></img>
       </div>
     </section>
   )

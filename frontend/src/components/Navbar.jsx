@@ -9,10 +9,8 @@ export default function Navbar() {
 
         <nav className="nav-links">
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/about">About Me</Link>
           <Link to="/projects">Projects</Link>
-          <Link to="/skills">Skills</Link>
-          <Link to="/contact">Contact</Link>
           <Link to="/photography">Photography</Link>
           <Link to="/music">My Top Picks</Link>
         </nav>
