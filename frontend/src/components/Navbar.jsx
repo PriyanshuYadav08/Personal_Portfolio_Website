@@ -14,7 +14,7 @@ export default function Navbar() {
           <Link to="/skills">Skills</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/photography">Photography</Link>
-          <Link to="/music">Music</Link>
+          <Link to="/music">My Top Picks</Link>
         </nav>
       </div>
     </header>
