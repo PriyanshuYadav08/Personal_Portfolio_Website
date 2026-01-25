@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   background-image: url('src/assets/DSC_5159.JPG');
   background-size: cover;
   background-position: center;
@@ -38,14 +38,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   animation: slideInFromLeft 1s ease-out 0.5s both;
 }
 
 .home-content p {
   font-size: clamp(1.2rem, 3vw, 1.5rem);
   color: #f1f5f9;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 300;
   animation: slideInFromRight 1s ease-out 1s both;
 }
