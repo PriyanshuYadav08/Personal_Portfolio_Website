@@ -17,7 +17,7 @@ export default function About() {
           <span>GitHub</span>
         </a>
         <a href="https://linkedin.com/in/priyanshuyadav08" className="connect-link" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/linkedin.png" alt="LinkedIn" className="connect-icon" />
+          <img src="/assets/linkedin.png" alt="LinkedIn" className="connect-icon" />
           <span>LinkedIn</span>
         </a>
         <a href="https://leetcode.com/u/priyanshu81104/" className="connect-link" target="_blank" rel="noopener noreferrer">
@@ -25,15 +25,15 @@ export default function About() {
           <span>LeetCode</span>
         </a>
         <a href="https://open.spotify.com/user/r6vlkhxktrk4ypackny33us61" className="connect-link" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/spotify.png" alt="Spotify" className="connect-icon" />
+          <img src="/assets/spotify.png" alt="Spotify" className="connect-icon" />
           <span>Spotify</span>
         </a>
         <a href="https://www.instagram.com/pics.by.panther/" className="connect-link" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/instagram.png" alt="Instagram" className="connect-icon" />
+          <img src="/assets/instagram.png" alt="Instagram" className="connect-icon" />
           <span>Instagram</span>
         </a>
         <a href="https://drive.google.com/file/d/1ejXFHF0OLd6dphlmzObh9e_kOvGPP_Z-/view?usp=sharing" className="connect-link" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/resume.png" alt="Instagram" className="connect-icon" />
+          <img src="/assets/resume.png" alt="Instagram" className="connect-icon" />
           <span>Latest Resume</span>
         </a>
       </div>

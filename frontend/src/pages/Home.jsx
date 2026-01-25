@@ -8,7 +8,7 @@ export default function Home() {
         <p>
           Android & Flutter Developer • C++ Enthusiast • Photographer
         </p>
-        <img src="src/assets/DSC_0278.JPG" alt="Profile"></img>
+        <img src="/assets/DSC_0278.JPG" alt="Profile"></img>
       </div>
     </section>
   )
