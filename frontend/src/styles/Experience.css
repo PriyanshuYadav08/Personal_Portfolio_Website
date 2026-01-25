@@ -1,0 +1,50 @@
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0rem;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.experience-section {
+  margin-top: 1rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  text-align: justify;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #333;
+}
+
+.experience-role {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.experience-company {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #555;
+  margin: 0 0 0.3rem 0;
+}
+
+.experience-duration {
+  font-size: 0.95rem;
+  color: #777;
+  font-style: italic;
+  margin: 0 0 0.8rem 0;
+}
+
+.experience-description {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+  margin: 0;
+}

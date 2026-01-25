@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.6rem;
+  text-align: justify;
 }
 
 .project-card h3 {

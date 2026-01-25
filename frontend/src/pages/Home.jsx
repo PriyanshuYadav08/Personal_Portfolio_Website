@@ -6,7 +6,7 @@ export default function Home() {
       <div className="home-content">
         <h1>Hi, I'm Priyanshu</h1>
         <p>
-          Android Developer • Machine Learning Enthusiast • Photographer
+          Android & Flutter Developer • C++ Enthusiast • Photographer
         </p>
         <img src="src/assets/DSC_0278.JPG" alt="Profile"></img>
       </div>

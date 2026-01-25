@@ -11,6 +11,7 @@ export default function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/about">About Me</Link>
           <Link to="/projects">Projects</Link>
+          <Link to="/experience">Experience</Link>
           <Link to="/photography">Photography</Link>
           <Link to="/music">My Top Picks</Link>
         </nav>

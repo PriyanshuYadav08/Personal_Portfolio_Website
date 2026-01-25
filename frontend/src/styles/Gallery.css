@@ -15,6 +15,10 @@
   width: 100vw;
 }
 
+.album-container {
+  position: relative;
+  overflow: hidden;
+}
 
 .gallery-img {
   width: 100%;
@@ -24,4 +28,42 @@
   box-shadow: none;
   transition: transform 0.2s;
   display: block;
+}
+
+.album-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.album-container:hover .album-overlay {
+  opacity: 1;
+}
+
+.album-info {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.album-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+.album-info p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: white;
+  opacity: 0.9;
 }

@@ -1,19 +1,144 @@
 .about-text {
-  max-width: 800px;
+  max-width: 1300px;
   margin-bottom: 2rem;
-  color: #cbd5f5;
+  color: black;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1.1rem;
 }
 
-.sub-title {
-  font-size: 1.3rem;
-  margin-bottom: 0.8rem;
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+.connect-section {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
-.education-list {
-  padding-left: 1.2rem;
+.connect-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 1.5rem;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.education-list li {
-  margin-bottom: 0.6rem;
-  color: #94a3b8;
+.connect-link:hover {
+  background: #333;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.connect-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.connect-link:hover .connect-icon {
+  color: white;
+}
+
+.connect-link span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.skills-section {
+  margin-top: 1rem;
+}
+
+.skills-category {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.skills-category-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skill-tag {
+  background: #333;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: #555;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.education-section {
+  margin-top: 1rem;
+}
+
+.education-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  border-left: 4px solid #333;
+}
+
+.education-degree {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.education-details {
+  margin-left: 1rem;
+}
+
+.education-specialization {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  margin: 0 0 0.3rem 0;
+}
+
+.education-institution {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 0.3rem 0;
+}
+
+.education-graduation {
+  font-size: 0.95rem;
+  color: #777;
+  margin: 0;
 }
