@@ -1,6 +1,6 @@
-export const photos = [
+const photosList = [
   { src: "/assets/1.jpg", title: "Street, Delhi" },
-  { src: "/assets/2.jpg", title: "Market, Rajasthan" },
+  { src: "/assets/41.jpeg", title: "Cultural Festival, West Bengal" },
   { src: "/assets/3.jpg", title: "Temple, Varanasi" },
   { src: "/assets/4.jpg", title: "Mountains, Himachal" },
   { src: "/assets/5.jpg", title: "Beach, Goa" },
@@ -39,7 +39,7 @@ export const photos = [
   { src: "/assets/38.jpg", title: "Beach Resort, Goa" },
   { src: "/assets/39.jpg", title: "Mountain Trekking, Uttarakhand" },
   { src: "/assets/40.jpg", title: "Cultural Festival, West Bengal" },
-  { src: "/assets/41.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/2.jpg", title: "Market, Rajasthan" },
   { src: "/assets/42.jpeg", title: "Cultural Festival, West Bengal" },
   { src: "/assets/43.jpeg", title: "Cultural Festival, West Bengal" },
   { src: "/assets/44.jpeg", title: "Cultural Festival, West Bengal" },
@@ -49,4 +49,15 @@ export const photos = [
   { src: "/assets/48.jpeg", title: "Cultural Festival, West Bengal" },
   { src: "/assets/49.jpeg", title: "Cultural Festival, West Bengal" },
   { src: "/assets/50.jpeg", title: "Cultural Festival, West Bengal" },
-]
+];
+
+function shuffle(array) {
+  const result = array.slice();
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+export const photos = shuffle(photosList);
