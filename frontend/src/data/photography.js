@@ -38,5 +38,15 @@ export const photos = [
   { src: "/assets/37.jpg", title: "Historic City, Jaipur" },
   { src: "/assets/38.jpg", title: "Beach Resort, Goa" },
   { src: "/assets/39.jpg", title: "Mountain Trekking, Uttarakhand" },
-  { src: "/assets/40.jpg", title: "Cultural Festival, West Bengal" }
+  { src: "/assets/40.jpg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/41.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/42.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/43.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/44.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/45.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/46.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/47.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/48.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/49.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/50.jpeg", title: "Cultural Festival, West Bengal" },
 ]
