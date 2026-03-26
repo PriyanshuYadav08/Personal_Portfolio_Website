@@ -1,12 +1,18 @@
 export const projects = [
   {
-    title: "COINLYST",
-    stack: ["Kotlin", "XML", "MVVM", "Python", "Finance APIs", "Authentication"],
-    description: "Stock Market price prediction and tracking app with real-time updates, AI/ML aided insights, built using Kotlin, MVVM architecture and Finance APIs.",
+    title: "QuantPulse",
+    stack: ["Flutter", "Dart", "Firebase", "Python", "Authentication"],
+    description: "Flutter app to decode and analyse the stock market using Python and ML models to predict the prices.",
+    link: "https://github.com/PriyanshuYadav08/Stock_Market_Screener_App"
+  },
+  {
+    title: "Coinlyst",
+    stack: ["Kotlin", "XML", "MVVM", "Finance APIs", "Authentication"],
+    description: "A cryptocurrency price tracking Android application that provides real-time updates, historical data and market insights using various finance APIs.",
     link: "https://github.com/PriyanshuYadav08/Crypto_Price_Tracker_App"
   },
   {
-    title: "STEMQUEST",
+    title: "Stemquest",
     stack: ["Flutter", "Dart", "Firebase", "Firestore", "Git", "Custom Authentication"],
     description: "A Flutter app for rural schools that makes STEM subjects engaging through mini-games, and teacher analytics with in-app quizzes and assignmnets.",
     link: "https://github.com/PriyanshuYadav08/Offline_Gamified_IAPC"
