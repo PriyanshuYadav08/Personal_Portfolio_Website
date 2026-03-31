@@ -17,3 +17,5 @@ A responsive personal portfolio website built using React and modern CSS.
 ## Deployment
 - Deployed on Vercel
 - Continuous deployment via GitHub
+
+## This a push from the new laptop.
