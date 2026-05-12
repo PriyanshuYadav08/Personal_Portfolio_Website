@@ -50,6 +50,31 @@ export const albums = [
     artist: "Frank Ocean"
   },
   {
+    cover: "https://upload.wikimedia.org/wikipedia/en/1/16/Damnation_cover.jpg",
+    name: "Damnation",
+    artist: "Opeth"
+  },
+  {
+    cover: "https://upload.wikimedia.org/wikipedia/en/4/45/Blackwaterpark.jpg",
+    name: "Blackwater Park",
+    artist: "Opeth"
+  },
+  {
+    cover: "https://upload.wikimedia.org/wikipedia/en/b/b3/Opeth_Morningrise.jpg",
+    name: "Morningrise",
+    artist: "Opeth"
+  },
+  {
+    cover: "https://upload.wikimedia.org/wikipedia/en/e/ee/Opeth_-_Watershed.jpg",
+    name: "Watershed",
+    artist: "Opeth"
+  },
+  {
+    cover: "https://upload.wikimedia.org/wikipedia/en/d/d7/Opeth_stilllife.jpg",
+    name: "Still Life",
+    artist: "Opeth"
+  },
+  {
     cover: "https://upload.wikimedia.org/wikipedia/en/4/4b/Travis_Scott_-_Astroworld.png",
     name: "Astroworld",
     artist: "Travis Scott"

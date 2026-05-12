@@ -32,7 +32,7 @@ export default function About() {
           <img src="/assets/instagram.png" alt="Instagram" className="connect-icon" />
           <span>Instagram</span>
         </a>
-        <a href="https://drive.google.com/file/d/1ejXFHF0OLd6dphlmzObh9e_kOvGPP_Z-/view?usp=sharing" className="connect-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1yv0t4Mg0Aur6un1zfshl2SxNHGgte6dk/view?usp=sharing" className="connect-link" target="_blank" rel="noopener noreferrer">
           <img src="/assets/resume.png" alt="Instagram" className="connect-icon" />
           <span>Latest Resume</span>
         </a>

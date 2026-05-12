@@ -49,6 +49,11 @@ const photosList = [
   { src: "/assets/48.jpeg", title: "Cultural Festival, West Bengal" },
   { src: "/assets/49.jpeg", title: "Cultural Festival, West Bengal" },
   { src: "/assets/50.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/51.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/52.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/53.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/54.jpeg", title: "Cultural Festival, West Bengal" },
+  { src: "/assets/55.jpeg", title: "Cultural Festival, West Bengal" },
 ];
 
 function shuffle(array) {

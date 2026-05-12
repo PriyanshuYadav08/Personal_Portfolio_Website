@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: "PennyWise",
+    stack: ["Kotlin", "XML", "Firebase", "RoomDB", "MPAndroidChart", "Authentication"],
+    description: "A personal finance app using Kotlin (MVVM-inspired) with Firebase Auth, expense tracking with RoomDB + LiveData + MPAndroidChart for visualising spending patterns through charts.",
+    link: "https://github.com/PriyanshuYadav08/Personal_Finance_App"
+  },
+  {
+    title: "Stock Market Forecasting Using Attention-LSTM",
+    stack: ["Python", "Tensorflow/Keras", "Scikit-learn", "yFinance"],
+    description: "Developed a 260,065-parameter LSTM framework for stock market forecasting using TensorFlow/Keras on 2,500+ trading-day datasets of Microsoft and NVIDIA, integrating stacked LSTMs, Temporal Attention and a 50-day sequential look-back window for financial time-series prediction. Implemented a robust evaluation pipeline with 5 performance metrics, 2×3 nested time-series cross-validation and leakage-free preprocessing to analyze overfitting and regime-shift sensitivity.",
+    link: "https://drive.google.com/file/d/1v5YHM0JY3nu6prFn3dMAniHU6dNn0er7/view?usp=sharing"
+  },
+  {
+    title: "AI-Based Medical Imaging & Bioheat Simulation",
+    stack: ["Python", "PyTorch", "OpenCV", "COMSOL Multpihysics 6.1"],
+    description: "Developed AI-based Medical Imaging disease detection on the ODIR dataset (5,000 patients, 8 disease classes) with 86.62% validation accuracy & Bioheat Simulation framework using COMSOL Multiphysics 6.1 simulation for Magnetic Fluid Hyperthermia using 1,000 nanoparticle heat-source coordinates to achieve therapeutic tumor temperatures with 2.4% deviation from published benchmarks.",
+    link: "https://drive.google.com/file/d/1t82czCQiimtMgR62vH-nX4Hxnt5T1Plh/view?usp=sharing"
+  },
+  {
     title: "QuantPulse",
     stack: ["Flutter", "Dart", "Firebase", "Python", "Authentication"],
     description: "Flutter app to decode and analyse the stock market using Python and ML models to predict the prices.",
@@ -12,7 +30,7 @@ export const projects = [
     link: "https://github.com/PriyanshuYadav08/Crypto_Price_Tracker_App"
   },
   {
-    title: "Stemquest",
+    title: "STEMquest",
     stack: ["Flutter", "Dart", "Firebase", "Firestore", "Git", "Custom Authentication"],
     description: "A Flutter app for rural schools that makes STEM subjects engaging through mini-games, and teacher analytics with in-app quizzes and assignmnets.",
     link: "https://github.com/PriyanshuYadav08/Offline_Gamified_IAPC"
