@@ -1,0 +1,237 @@
+.home {
+  position: relative;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 5rem 2rem 4rem;
+  overflow: hidden;
+}
+
+/* Background elements */
+.home-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(183,165,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(183,165,255,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black, transparent);
+}
+
+.home-glow {
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(183,165,255,0.08) 0%, transparent 70%);
+}
+
+/* Content */
+.home-content {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  max-width: 580px;
+}
+
+.home-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: #4ade80;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.08em;
+}
+
+.home-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #4ade80;
+  border-radius: 50%;
+  animation: pulse 2s ease infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.home-name {
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1.0;
+  color: #e8e9f0;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.home-name-accent {
+  color: #b7a5ff;
+}
+
+.home-role {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.1rem;
+  color: #7a8099;
+  margin-bottom: 1.5rem;
+  min-height: 1.8rem;
+}
+
+.home-role-prefix {
+  color: #b7a5ff;
+  margin-right: 0.25rem;
+}
+
+.home-role-text {
+  color: #c8cad6;
+}
+
+.home-cursor {
+  color: #b7a5ff;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.home-bio {
+  font-size: 1rem;
+  color: #7a8099;
+  line-height: 1.7;
+  max-width: 460px;
+  margin-bottom: 2.5rem;
+}
+
+/* Buttons */
+.home-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: #b7a5ff;
+  color: #0d0f14;
+}
+
+.btn-primary:hover {
+  background: #c9baff;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #b7a5ff;
+  border: 1px solid rgba(183,165,255,0.35);
+}
+
+.btn-secondary:hover {
+  background: rgba(183,165,255,0.08);
+  border-color: rgba(183,165,255,0.6);
+  transform: translateY(-1px);
+}
+
+/* Stats */
+.home-stats {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.home-stat-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e8e9f0;
+}
+
+.home-stat-label {
+  font-size: 0.72rem;
+  color: #4a5068;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-stat-divider {
+  width: 1px;
+  height: 36px;
+  background: #1e2330;
+}
+
+/* Portrait */
+.home-portrait-wrap {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.home-portrait-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 1px solid rgba(183,165,255,0.25);
+}
+
+.home-portrait {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  border: 2px solid rgba(183,165,255,0.15);
+  filter: grayscale(15%);
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 3rem;
+    min-height: auto;
+    gap: 2.5rem;
+  }
+
+  .home-eyebrow { justify-content: center; }
+  .home-actions { justify-content: center; }
+  .home-stats { justify-content: center; }
+  .home-bio { margin-left: auto; margin-right: auto; }
+  .home-portrait { width: 180px; height: 180px; }
+}

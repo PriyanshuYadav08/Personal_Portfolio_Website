@@ -1,0 +1,108 @@
+.music-subtitle {
+  color: #7a8099;
+  font-size: 0.95rem;
+  max-width: 500px;
+}
+
+.music-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.75rem 0 2rem;
+}
+
+.filter-btn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #1e2330;
+  background: transparent;
+  color: #7a8099;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  border-color: rgba(183,165,255,0.3);
+  color: #c8cad6;
+  background: rgba(183,165,255,0.05);
+}
+
+.filter-btn--active {
+  border-color: rgba(183,165,255,0.5);
+  background: rgba(183,165,255,0.1);
+  color: #b7a5ff;
+}
+
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(180px, 1fr));
+  gap: 1.25rem;
+}
+
+.album-card {
+  cursor: default;
+  group: true;
+}
+
+.album-img-wrap {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 1;
+  margin-bottom: 0.85rem;
+  border: 1px solid #1e2330;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.album-card:hover .album-img-wrap {
+  transform: scale(1.03);
+  border-color: rgba(183,165,255,0.25);
+}
+
+.album-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: filter 0.25s ease;
+}
+
+.album-card:hover img {
+  filter: brightness(1.1);
+}
+
+.album-shine {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.04) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.album-info {}
+
+.album-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #c8cad6;
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.album-artist {
+  font-size: 0.72rem;
+  color: #4a5068;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .music-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 0.75rem; }
+  .music-filters { gap: 0.35rem; }
+}

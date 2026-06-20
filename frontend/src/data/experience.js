@@ -1,5 +1,11 @@
 export const experience = [
   {
+    company: "Tools - Python, React.js, FastAPI, Medical Imaging Libraries & Data",
+    role: "Student Intern @ IIIT, New Delhi",
+    duration: "June 2026 - Present | Onsite, New Delhi",
+    description: "Developing and maintaining medical-imaging realted software applications for projects in collaboration with AIIMS, New Delhi."
+  },
+  {
     company: "Tools - Kotlin, XML, Firebase, MySQL, Firebase, Firestore, Android Studio, Git",
     role: "Android App Development Intern @ LawsForum",
     duration: "Feburary 2025 - August 2025 | Onsite, New Delhi",
