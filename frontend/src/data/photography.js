@@ -54,6 +54,16 @@ const photosList = [
   { src: "/assets/53.jpeg"},
   { src: "/assets/54.jpeg"},
   { src: "/assets/55.jpeg"},
+  { src: "/assets/56.jpeg"},
+  { src: "/assets/57.jpeg"},
+  { src: "/assets/58.jpeg"},
+  { src: "/assets/59.jpeg"},
+  { src: "/assets/60.jpeg"},
+  { src: "/assets/61.jpeg"},
+  { src: "/assets/62.jpeg"},
+  { src: "/assets/63.jpeg"},
+  { src: "/assets/64.jpeg"},
+  { src: "/assets/65.jpeg"},
 ];
 
 function shuffle(array) {
